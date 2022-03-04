@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .blogs-first-section-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr;
+    }
+    .main-blogs-first-div {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .main-blogs-first-div .blogs-firstsection-image {
+        width: 100%;
+    }
+    .main-blogs-second-div {
+        text-align: center;
+    }
+    .main-perfil-description-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-img .main-text-container {
+        width: 90%;
+    }
+    .section-redes {
+        justify-content: center;
+    }
+    .section-redes div {
+        margin:0;
+    }
+}
